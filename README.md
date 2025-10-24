@@ -36,27 +36,35 @@ A full-stack B2B organization management web application built with React, Tailw
 
 ## Installation
 
-1. Install dependencies for both frontend and backend:
+1. Install dependencies for root, frontend, and backend:
 ```bash
-cd frontend && npm install
-cd ../backend && npm install
+npm install
+npm run install-all
 ```
 
-2. Start the backend server (from backend directory):
+2. Start both frontend and backend servers with a single command:
 ```bash
-cd backend
-npm run dev
-```
-
-3. Start the frontend development server (from frontend directory):
-```bash
-cd frontend
-npm run dev
+npm start
 ```
 
 The application will be available at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:3001
+
+### Alternative: Run servers separately
+If you prefer to run them in separate terminals:
+
+**Backend:**
+```bash
+cd backend
+npm run dev
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm run dev
+```
 
 
 
