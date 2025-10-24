@@ -34,6 +34,16 @@ A full-stack B2B organization management web application built with React, Tailw
 - Express
 - SQLite (better-sqlite3)
 
+**Database Choice:**
+SQLite was chosen for this project for its simplicity and ease of setup. It provides:
+- Zero configuration - no separate database server required
+- File-based storage - entire database in a single file
+- Perfect for development and small to medium applications
+- Easy to backup and migrate
+- No installation dependencies
+
+For production deployments requiring high concurrency or distributed systems,  we can consider migrating to PostgreSQL or MySQL.
+
 ## Installation
 
 1. Install dependencies for root, frontend, and backend:
